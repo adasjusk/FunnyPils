@@ -1,4 +1,4 @@
-[![GitHub release](https://flat.badgen.net/github/release/adasjusk/FunnyPils/)](https://github.com/adasjusk/FunnyPils/)
+[![GitHub release](https://flat.badgen.net/github/release/adasjusk/FunnyPils)](https://github.com/adasjusk/FunnyPils/)
 [![LabAPI Version](https://flat.badgen.net/static/LabAPI%20Version/v1.1.4)](https://github.com/northwood-studios/LabAPI)
 [![License](https://flat.badgen.net/github/license/adasjusk/FunnyPils/)](https://github.com/adasjusk/FunnyPils/main/LICENSE)
 # About FunnyPils

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36616.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SCP500FunnyP", "SCP500FunnyP\SCP500FunnyP.csproj", "{17B030D2-9675-42CE-8BC9-7474AF7D1A0E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17B030D2-9675-42CE-8BC9-7474AF7D1A0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17B030D2-9675-42CE-8BC9-7474AF7D1A0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17B030D2-9675-42CE-8BC9-7474AF7D1A0E}.Debug|x64.ActiveCfg = Debug|x64
+		{17B030D2-9675-42CE-8BC9-7474AF7D1A0E}.Debug|x64.Build.0 = Debug|x64
+		{17B030D2-9675-42CE-8BC9-7474AF7D1A0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17B030D2-9675-42CE-8BC9-7474AF7D1A0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17B030D2-9675-42CE-8BC9-7474AF7D1A0E}.Release|x64.ActiveCfg = Release|x64
+		{17B030D2-9675-42CE-8BC9-7474AF7D1A0E}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {394FBCF3-EBF5-49EE-A8F0-A6C7737B5AB1}
+	EndGlobalSection
+EndGlobal

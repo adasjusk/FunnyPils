@@ -9,12 +9,16 @@ using LabApi.Features.Wrappers;
 using PlayerRoles;
 namespace SCP500FunnyP
 {
-    public sealed class SCP500Chaos : Plugin<SCP500Chaos>
+    public class Config
+    {
+        public bool IsEnabled { get; set; } = true;
+    }
+    public sealed class SCP500Chaos : Plugin<Config>
     {
         public override string Name => "SCP500Chaos";
         public override string Author => "adasjusk";
         public override Version Version => new Version(1, 0, 0);
-        public override Version RequiredApiVersion => new Version(1, 1, 4);
+        public override Version RequiredApiVersion => new Version(1, 1, 6);
         public override string Description => "SCP-500 random-effects plugin";
         private readonly Random _rng = new Random();
         private readonly List<(string id, int w)> _effects = new List<(string, int)>
@@ -172,7 +176,6 @@ namespace SCP500FunnyP
                 Logger.Error($"[SCP500Chaos] Error in ApplySpawnAlly: {ex}");
             }
         }
-
         private void ApplySwitchTeam(Player player)
         {
             RoleTypeId currentRole = player.Role;
@@ -195,7 +198,6 @@ namespace SCP500FunnyP
                 player.SendBroadcast("Your allegiance remains unchanged.", 3);
             }
         }
-
         private void ApplyStealHealth(Player player)
         {
             float totalStolen = 0f;
@@ -235,7 +237,6 @@ namespace SCP500FunnyP
                 player.SendBroadcast("The speed effect failed to apply!", 3);
             }
         }
-
         private string GetWeightedEffect()
         {
             int total = _effects.Sum(e => e.w);
